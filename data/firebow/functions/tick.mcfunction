@@ -1,0 +1,2 @@
+function firebow:shoot_detect
+function firebow:meteor_tick

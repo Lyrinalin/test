@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    " S ",
+    "BS "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:bow",
+    "components": {
+      "minecraft:custom_data": "{firebow:1b}",
+      "minecraft:custom_name": "{\"text\":\"Огненный лук\",\"color\":\"gold\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Стреляет метеоритами\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\"Тратит магма-блоки вместо стрел\",\"color\":\"dark_gray\",\"italic\":false}"
+      ]
+    }
+  }
+}

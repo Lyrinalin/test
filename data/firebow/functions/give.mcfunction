@@ -1,0 +1,1 @@
+give @s minecraft:bow[custom_data={firebow:1b},custom_name='{"text":"Огненный лук","color":"gold","italic":false}',lore=['{"text":"Стреляет метеоритами","color":"gray","italic":false}','{"text":"Тратит магма-блоки вместо стрел","color":"dark_gray","italic":false}']] 1
