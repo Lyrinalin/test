@@ -18,7 +18,31 @@
 3. Перезапустите сервер (или используйте `/reload`, но рекомендуется перезапуск).
 
 ## Сборка
-### Требуется установленный Gradle
+### Требуется установленный Gradle и Java 21
+Если команда `gradle` не распознана — установите Gradle и убедитесь, что он в `PATH`.
+
+**Windows (PowerShell, пример через Chocolatey):**
+```powershell
+choco install temurin21 -y
+choco install gradle -y
+gradle --version
+```
+**Windows (альтернатива через Scoop):**
+```powershell
+scoop install temurin21
+scoop install gradle
+gradle --version
+```
+**Linux/macOS (SDKMAN):**
+```bash
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java 21.0.2-tem
+sdk install gradle
+gradle --version
+```
+
+После установки Gradle:
 **Linux/macOS:**
 ```bash
 gradle build
@@ -69,6 +93,7 @@ messageNoAmmo: "&cНужен магма-блок как боеприпас!"
 3. Стреляйте — должны появляться «метеориты» с частицами и уроном.
 
 ## Частые проблемы
+- **`gradle`/`mvn` не распознаны** — установите Gradle (или Maven) и добавьте в `PATH`. См. раздел **Сборка**.
 - **Плагин не загружается / ошибка версии Java** — убедитесь, что сервер запущен на Java 21.
 - **Нет эффекта при выстреле** — проверьте, что это именно «Огненный лук» и есть магма-блоки.
 - **Ошибки в консоли** — убедитесь, что используете Paper 1.21.x.
