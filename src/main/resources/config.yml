@@ -1,0 +1,7 @@
+damage: 8.0
+fireSeconds: 4
+explosionPower: 0.0
+trailParticles: true
+cooldownTicks: 12
+magmaCost: 1
+messageNoAmmo: "&cНужен магма-блок как боеприпас!"

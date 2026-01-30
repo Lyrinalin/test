@@ -1,0 +1,13 @@
+name: FireBow
+version: 1.0.0
+main: me.yourname.firebow.FireBowPlugin
+api-version: "1.21"
+commands:
+  givefirebow:
+    description: Выдать Огненный лук.
+    usage: /givefirebow
+    permission: firebow.give
+permissions:
+  firebow.give:
+    description: Разрешает выдачу Огненного лука.
+    default: op
