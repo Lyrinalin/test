@@ -1,0 +1,6 @@
+cooldown_ticks: 10
+impact_radius: 3.0
+impact_damage: 6.0
+fire_seconds: 4
+trail_particles: true
+debug: false
