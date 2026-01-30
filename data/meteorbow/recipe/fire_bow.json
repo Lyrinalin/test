@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B S",
+    "BS ",
+    "S B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:crossbow",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Огненный лук",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Стреляет метеоритами",
+          "color": "gray"
+        },
+        {
+          "text": "Боеприпасы: магмовые блоки",
+          "color": "dark_gray"
+        }
+      ],
+      "minecraft:custom_data": {
+        "meteorbow": 1
+      },
+      "minecraft:unbreakable": {}
+    }
+  }
+}

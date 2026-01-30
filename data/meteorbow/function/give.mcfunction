@@ -1,0 +1,1 @@
+give @s minecraft:crossbow[minecraft:custom_name='{"text":"Огненный лук","color":"gold"}',minecraft:lore=['{"text":"Стреляет метеоритами","color":"gray"}','{"text":"Боеприпасы: магмовые блоки","color":"dark_gray"}'],minecraft:custom_data={meteorbow:1b},minecraft:unbreakable={}] 1
