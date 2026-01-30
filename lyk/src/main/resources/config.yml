@@ -1,0 +1,32 @@
+selection-radius: 5.0
+angle-steps:
+  small: 1
+  normal: 5
+  large: 15
+messages:
+  prefix: "&7[&bASE&7] &r"
+  no-permission: "&cYou do not have permission to do that."
+  player-only: "&cOnly players can use this command."
+  stand-selected: "&aArmor stand selected."
+  stand-not-found: "&cNo armor stand in sight."
+  stand-missing: "&cSelected armor stand no longer exists."
+  stand-too-far: "&cSelected armor stand is too far away."
+  stand-required: "&cSelect an armor stand first with /ase select."
+  no-copied-pose: "&cCopy a pose first with /ase copy."
+  gui-opened: "&aOpening editor."
+  pose-copied: "&aPose copied."
+  pose-pasted: "&aPose pasted."
+  config-reloaded: "&aConfig reloaded."
+  help:
+    - "&eArmorStandEditor Commands:"
+    - "&e/ase help &7- Show this help"
+    - "&e/ase select &7- Select armor stand in sight"
+    - "&e/ase open &7- Open editor GUI"
+    - "&e/ase copy &7- Copy pose"
+    - "&e/ase paste &7- Paste pose"
+    - "&e/ase reload &7- Reload config"
+menus:
+  main-title: "ArmorStand Editor"
+  pose-title: "Pose Editor"
+  part-title: "Edit Pose: %part%"
+  equipment-title: "Equipment"
