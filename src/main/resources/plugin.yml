@@ -1,0 +1,13 @@
+name: MeteorBow
+version: ${version}
+main: com.example.meteorbow.MeteorBowPlugin
+api-version: "1.21"
+commands:
+  meteorbow:
+    description: MeteorBow commands
+    usage: "/meteorbow <give|reload>"
+    permission: meteorbow.admin
+permissions:
+  meteorbow.admin:
+    description: Allows administrative MeteorBow commands
+    default: op
