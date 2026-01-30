@@ -1,0 +1,28 @@
+name: ArmorStandEditor
+main: com.armoreditor.ArmorStandEditorPlugin
+version: '${project.version}'
+api-version: '1.21'
+commands:
+  ase:
+    description: Armor stand editor commands.
+    usage: /ase <help|select|open|copy|paste|reload>
+    permission: ase.use
+permissions:
+  ase.use:
+    description: Allows using ArmorStandEditor.
+    default: op
+  ase.select:
+    description: Allows selecting armor stands.
+    default: op
+  ase.edit:
+    description: Allows editing armor stands.
+    default: op
+  ase.copy:
+    description: Allows copying armor stand poses.
+    default: op
+  ase.paste:
+    description: Allows pasting armor stand poses.
+    default: op
+  ase.reload:
+    description: Allows reloading the ArmorStandEditor config.
+    default: op
